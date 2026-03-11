@@ -6,7 +6,7 @@ If you discover a security vulnerability in a Kiloloop project, please report it
 
 **Do not open a public GitHub issue for security vulnerabilities.**
 
-Instead, use [GitHub's private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability) on the affected repository, or email the project maintainers.
+Instead, use [GitHub's private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability) on the affected repository when it is enabled. If private reporting is unavailable, use the repository's documented private security contact or another non-public maintainer channel.
 
 ## Response Timeline
 

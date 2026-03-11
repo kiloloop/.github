@@ -7,5 +7,4 @@
 
 ## Projects
 
-- [OACP](https://github.com/kiloloop/oacp) — Open Agent Coordination Protocol
-- [agent-estimate](https://github.com/kiloloop/agent-estimate) — Cost estimation for AI agent workflows
+- **OACP** — Open Agent Coordination Protocol (repo link will be added at launch)
