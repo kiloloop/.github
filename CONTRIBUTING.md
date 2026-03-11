@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing!
 
-Please read and follow our [Code of Conduct](https://github.com/kiloloop/.github/blob/main/CODE_OF_CONDUCT.md).
+Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## How to Contribute
 
@@ -18,7 +18,7 @@ Please read and follow our [Code of Conduct](https://github.com/kiloloop/.github
 2. Make your changes with clear, focused commits.
 3. Run the project's quality checks before submitting (see the project README).
 4. Open a PR against `main` with a clear description of what and why.
-5. PRs require one approval before merging.
+5. Check the repository's branch protections and contribution notes for any review or merge requirements before requesting merge.
 
 ### What We're Looking For
 
