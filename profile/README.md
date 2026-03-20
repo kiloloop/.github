@@ -1,15 +1,17 @@
 # Kiloloop
 
-Open-source tools and protocols for multi-agent engineering workflows.
-
-**MCP** gives your agent tools. **ACP** connects your IDE to an agent. **A2A** helps cloud agents find each other. **OACP** is the async messaging layer that coordinates them all — typed workflow messages over persistent transport that survives crashes. Zero infrastructure required.
+**Kiloloop makes AI-agent fleet work reliable.**
 
 ## Projects
 
-- **[OACP](https://github.com/kiloloop/oacp)** — Open Agent Coordination Protocol. File-based coordination for multi-agent workflows — task dispatch, code review, handoff, and brainstorm over async YAML messaging. Runtime-agnostic, zero infrastructure.
-- **[agent-estimate](https://github.com/kiloloop/agent-estimate)** — AI-powered estimation for software engineering tasks. PERT/METR calibrated, available as a CLI, GitHub Action, and Claude Code plugin.
-- **[oacp-skills](https://github.com/kiloloop/oacp-skills)** — Reusable skills for OACP-compatible agents. Check-inbox, review-loop, and self-improve form a complete agent-to-agent code review and maintenance loop.
-- **[cortex](https://github.com/kiloloop/cortex)** — Multi-agent SSOT (single source of truth) built on OACP. Consolidates session debriefs into a daily snapshot.
+- **[agent-estimate](https://github.com/kiloloop/agent-estimate)** — Know what an AI task will cost before you run it. PERT estimates calibrated for AI agents with human-equivalent compression ratios, METR reliability thresholds, and multi-agent wave planning. CLI, GitHub Action, and Claude Code plugin. *Estimate first, then [coordinate with OACP](https://github.com/kiloloop/oacp).*
+
+- **[OACP](https://github.com/kiloloop/oacp)** — Coordinate agents without the chaos. Open Agent Coordination Protocol — async YAML messaging for task dispatch, code review, handoff, and brainstorm across any runtime. File-based, zero infrastructure. *Already know what to dispatch? [Estimate it first](https://github.com/kiloloop/agent-estimate).*
+
+### Ecosystem
+
+- **[oacp-skills](https://github.com/kiloloop/oacp-skills)** — Reusable skills for OACP agents: check-inbox, review-loop, self-improve.
+- **[cortex](https://github.com/kiloloop/cortex)** — Multi-agent single source of truth. Consolidates session debriefs into daily snapshots.
 
 ## Links
 
