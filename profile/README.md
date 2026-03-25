@@ -4,9 +4,11 @@
 
 ## Projects
 
-- **[agent-estimate](https://github.com/kiloloop/agent-estimate)** — Know what an AI task will cost before you run it. PERT estimates calibrated for AI agents with human-equivalent compression ratios, METR reliability thresholds, and multi-agent wave planning. CLI, GitHub Action, and Claude Code plugin. *Estimate first, then [coordinate with OACP](https://github.com/kiloloop/oacp).*
+- **[brainstorm](https://github.com/kiloloop/brainstorm)** — Run multi-model brainstorms with 5 copy-paste prompts. Pick a coordinator agent, dispatch to the others, synthesize. Works with Claude Code, Codex, Gemini — whatever you already run.
 
-- **[OACP](https://github.com/kiloloop/oacp)** — Coordinate agents without the chaos. Open Agent Coordination Protocol — async YAML messaging for task dispatch, code review, handoff, and brainstorm across any runtime. File-based, zero infrastructure. *Already know what to dispatch? [Estimate it first](https://github.com/kiloloop/agent-estimate).*
+- **[agent-estimate](https://github.com/kiloloop/agent-estimate)** — Know what an AI task will cost before you run it. PERT estimates calibrated for AI agents with human-equivalent compression ratios, METR reliability thresholds, and multi-agent wave planning. CLI, GitHub Action, and Claude Code plugin.
+
+- **[OACP](https://github.com/kiloloop/oacp)** — Coordinate agents without the chaos. Open Agent Coordination Protocol — async YAML messaging for task dispatch, code review, handoff, and brainstorm across any runtime. File-based, zero infrastructure.
 
 ### Ecosystem
 
