@@ -12,9 +12,9 @@
 
 ### Ecosystem
 
+- **[iantha](https://github.com/kiloloop/iantha)** — Personal-life chief of staff. Clone-and-run starter you shape into your own daily assistant.
 - **[oacp-skills](https://github.com/kiloloop/oacp-skills)** — Reusable skills for OACP agents: check-inbox, review-loop, self-improve.
 - **[cortex](https://github.com/kiloloop/cortex)** — Multi-agent single source of truth. Consolidates session debriefs into daily snapshots.
-- **[iantha](https://github.com/kiloloop/iantha)** — Personal-life chief of staff. Clone-and-run starter you shape into your own daily assistant.
 
 ## Links
 
