@@ -10,7 +10,7 @@
 
 - **[agent-estimate](https://github.com/kiloloop/agent-estimate)** — Know what an AI task will cost before you run it. PERT estimates calibrated for AI agents with human-equivalent compression ratios, METR reliability thresholds, and multi-agent wave planning. CLI, GitHub Action, and Claude Code plugin.
 
-- **[OACP](https://github.com/kiloloop/oacp)** — Coordinate agents without the chaos. Open Agent Coordination Protocol — async YAML messaging for task dispatch, code review, handoff, brainstorm, and cross-machine memory sync across any runtime. File-based, zero infrastructure.
+- **[OACP](https://github.com/kiloloop/oacp)** — Coordinate agents without the chaos. Open Agent Coordination Protocol on two pillars: typed async messaging for task dispatch, code review, handoff, and brainstorm — plus persistent shared memory across agents, projects, and machines. File-based, runtime-agnostic, zero infrastructure.
 
 ### Ecosystem
 
