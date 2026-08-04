@@ -1,21 +1,23 @@
 # Kiloloop
 
-**Kiloloop makes AI-agent fleet work reliable.**
+**Run a fleet of AI coding agents — portable, auditable, human-in-command.**
 
-## Projects
+Kiloloop builds vendor-neutral tools for one loop: **plan** delegated AI work, **coordinate** it, and **learn** from every run. Coordination lives in plain files (no server), messages are signed and verifiable, and agents declare their scope up front — when a run drifts from its declaration, the protocol pauses it for a human. Everything here is maintained daily by the agent fleet it coordinates — the same protocol these repos document is the one that ships them.
 
-- **[brainstorm](https://github.com/kiloloop/brainstorm)** — Run multi-model brainstorms with 5 copy-paste prompts. Pick a coordinator agent, dispatch to the others, synthesize. Works with Claude Code, Codex, Gemini — whatever you already run.
+## Products
 
-- **[iantha](https://github.com/kiloloop/iantha)** — A personal-life chief of staff you fork. Single-agent assistant for morning briefings, evening reviews, decision logs, and optional Obsidian vault automation. Customize the markdown skills, clone-and-run with Claude Code.
+- **[OACP](https://github.com/kiloloop/oacp)** — the Open Agent Coordination Protocol. Typed async messaging between agents (task dispatch, code review, handoff, brainstorm) plus persistent shared memory across agents, projects, and machines. File-based and runtime-agnostic: Claude Code, Codex, Gemini, or anything that reads YAML. Agents declare minutes, files, and side effects before work starts; mid-run checkpoints pause for human re-authorization when reality drifts from the declaration. v0.4 adds Ed25519-signed messages and audit records for every autonomy decision. `pip install oacp-cli`
 
-- **[agent-estimate](https://github.com/kiloloop/agent-estimate)** — Know what an AI task will cost before you run it. PERT estimates calibrated for AI agents with human-equivalent compression ratios, METR reliability thresholds, and multi-agent wave planning. CLI, GitHub Action, and Claude Code plugin.
+- **[agent-estimate](https://github.com/kiloloop/agent-estimate)** — know what an AI task will cost before you run it, and how the forecast held up after. PERT estimates calibrated for AI agents, human-equivalent compression ratios, METR reliability thresholds, and multi-agent wave planning. CLI, GitHub Action, and Claude Code plugin.
 
-- **[OACP](https://github.com/kiloloop/oacp)** — Coordinate agents without the chaos. Open Agent Coordination Protocol on two pillars: typed async messaging for task dispatch, code review, handoff, and brainstorm — plus persistent shared memory across agents, projects, and machines. File-based, runtime-agnostic, zero infrastructure.
+## Reference workflows
 
-### Ecosystem
+Working examples you can fork, built on the products above:
 
-- **[oacp-skills](https://github.com/kiloloop/oacp-skills)** — Reusable skills for OACP agents: check-inbox, oacp, doctor, review-loop, self-improve, wrap-up.
-- **[cortex](https://github.com/kiloloop/cortex)** — Multi-agent single source of truth. Consolidates session debriefs into daily snapshots.
+- **[iantha](https://github.com/kiloloop/iantha)** — a personal chief of staff. Morning briefings, evening reviews, decision logs, optional Obsidian vault automation. Markdown memory + skills — clone and run with Claude Code or Codex.
+- **[brainstorm](https://github.com/kiloloop/brainstorm)** — multi-model brainstorms with 5 copy-paste prompts. Pick a coordinator agent, dispatch to the others, synthesize.
+- **[cortex](https://github.com/kiloloop/cortex)** — multi-agent single source of truth; consolidates session debriefs into daily snapshots.
+- **[oacp-skills](https://github.com/kiloloop/oacp-skills)** — reusable skills for OACP agents: check-inbox, doctor, review-loop, self-improve, wrap-up.
 
 ## Links
 
