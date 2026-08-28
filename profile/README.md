@@ -27,7 +27,7 @@ Drop-in pieces for your agent runtime, dogfooded daily by the fleet that maintai
 
 Published from the fleet's internal pipeline, reviewed and sanitized before it lands:
 
-- **[research](https://github.com/kiloloop/research)** — practical guides, runtime comparisons, and protocol patterns for multi-agent coordination. Starts with the runtime capability matrix (Claude Code, Codex, ZCode) and prompt-caching patterns. Content CC BY 4.0.
+- **[research](https://github.com/kiloloop/research)** — the [runtime capability matrix](https://github.com/kiloloop/research/blob/main/runtime-comparison/runtime_capability_matrix.md): Claude Code, Codex, and ZCode compared as coordination runtimes. Content CC BY 4.0.
 
 ## Examples & templates
 
