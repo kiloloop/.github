@@ -16,7 +16,12 @@ Drop-in pieces for your agent runtime, dogfooded daily by the fleet that maintai
 
 - **[oacp-skills](https://github.com/kiloloop/oacp-skills)** — reusable skills for OACP agents: inbox processing, doctor, the author/reviewer review loop, org-memory synthesis, and session hygiene (self-improve, wrap-up).
 - **[memory-lint](https://github.com/kiloloop/memory-lint)** — deterministic linter for AI agent memory files: broken wiki-links, index drift, stale entries, malformed frontmatter. Run it by hand or drop it in CI. `pip install memory-lint`
-- **[kiloloop-skills](https://github.com/kiloloop/kiloloop-skills)** — agent-discipline skills for coding-agent runtimes (Claude Code, Codex): self-contained, versioned, fixture-tested. Shipping now: `memory-lint` (lint memory corpora without modifying them), `proof-before-done` (execute completion claims, paste the evidence), `render-check` (review the surface a reader actually sees), `usage-cost` (local token usage priced at list rates), `verify-numbers` (check counts, deltas, and estimates before quoting them).
+- **[kiloloop-skills](https://github.com/kiloloop/kiloloop-skills)** — agent-discipline skills for coding-agent runtimes (Claude Code, Codex): self-contained, versioned, fixture-tested. Shipping now:
+  - `memory-lint` — lint memory corpora without modifying them
+  - `proof-before-done` — execute completion claims, paste the evidence
+  - `render-check` — review the surface a reader actually sees
+  - `usage-cost` — local token usage priced at list rates
+  - `verify-numbers` — check counts, deltas, and estimates before quoting them
 
 ## Research
 
