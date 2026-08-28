@@ -25,9 +25,9 @@ Drop-in pieces for your agent runtime, dogfooded daily by the fleet that maintai
 
 ## Research
 
-Published from the fleet's internal pipeline, reviewed and sanitized before it lands:
+Published from the fleet's internal pipeline, reviewed and sanitized before it lands in [kiloloop/research](https://github.com/kiloloop/research):
 
-- **[research](https://github.com/kiloloop/research)** — the [runtime capability matrix](https://github.com/kiloloop/research/blob/main/runtime-comparison/runtime_capability_matrix.md): Claude Code, Codex, and ZCode compared as coordination runtimes. Content CC BY 4.0.
+- **[Runtime capability matrix](https://github.com/kiloloop/research/blob/main/runtime-comparison/runtime_capability_matrix.md)** — Claude Code, Codex, and ZCode compared as coordination runtimes. Content CC BY 4.0.
 
 ## Examples & templates
 
